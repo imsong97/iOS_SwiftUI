@@ -14,6 +14,7 @@
 		CD5A5F3D262E918E008AF0DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD5A5F3C262E918E008AF0DD /* Preview Assets.xcassets */; };
 		CD5A5F40262E918E008AF0DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD5A5F3E262E918E008AF0DD /* LaunchScreen.storyboard */; };
 		CD5A5F49262E91E0008AF0DD /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5A5F48262E91E0008AF0DD /* CircleImageView.swift */; };
+		CD5A5F4C262E9869008AF0DD /* ZStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5A5F4B262E9869008AF0DD /* ZStackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		CD5A5F3F262E918E008AF0DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD5A5F41262E918E008AF0DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD5A5F48262E91E0008AF0DD /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		CD5A5F4B262E9869008AF0DD /* ZStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				CD5A5F41262E918E008AF0DD /* Info.plist */,
 				CD5A5F3B262E918E008AF0DD /* Preview Content */,
 				CD5A5F48262E91E0008AF0DD /* CircleImageView.swift */,
+				CD5A5F4B262E9869008AF0DD /* ZStackView.swift */,
 			);
 			path = "#3";
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			files = (
 				CD5A5F49262E91E0008AF0DD /* CircleImageView.swift in Sources */,
 				CD5A5F34262E9187008AF0DD /* AppDelegate.swift in Sources */,
+				CD5A5F4C262E9869008AF0DD /* ZStackView.swift in Sources */,
 				CD5A5F36262E9187008AF0DD /* SceneDelegate.swift in Sources */,
 				CD5A5F38262E9187008AF0DD /* ContentView.swift in Sources */,
 			);
