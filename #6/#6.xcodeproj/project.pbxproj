@@ -14,6 +14,7 @@
 		CD5A5FA9262EBE23008AF0DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD5A5FA8262EBE23008AF0DD /* Preview Assets.xcassets */; };
 		CD5A5FAC262EBE23008AF0DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD5A5FAA262EBE23008AF0DD /* LaunchScreen.storyboard */; };
 		CDD52EDD262FAEAE001B794A /* MyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD52EDC262FAEAE001B794A /* MyTabView.swift */; };
+		CDD52EE2262FBDAC001B794A /* InputTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD52EE1262FBDAC001B794A /* InputTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		CD5A5FAB262EBE23008AF0DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD5A5FAD262EBE23008AF0DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDD52EDC262FAEAE001B794A /* MyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabView.swift; sourceTree = "<group>"; };
+		CDD52EE1262FBDAC001B794A /* InputTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				CD5A5FAD262EBE23008AF0DD /* Info.plist */,
 				CD5A5FA7262EBE23008AF0DD /* Preview Content */,
 				CDD52EDC262FAEAE001B794A /* MyTabView.swift */,
+				CDD52EE1262FBDAC001B794A /* InputTextView.swift */,
 			);
 			path = "#6";
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD5A5FA0262EBE20008AF0DD /* AppDelegate.swift in Sources */,
+				CDD52EE2262FBDAC001B794A /* InputTextView.swift in Sources */,
 				CD5A5FA2262EBE21008AF0DD /* SceneDelegate.swift in Sources */,
 				CDD52EDD262FAEAE001B794A /* MyTabView.swift in Sources */,
 				CD5A5FA4262EBE21008AF0DD /* ContentView.swift in Sources */,

@@ -26,10 +26,11 @@ struct ContentView: View {
                 }
             
 //            Text("보여질 화면 3")
-            MyTabView(title: "보여질 화면 3", bgColor: Color.blue)
+//            MyTabView(title: "보여질 화면 3", bgColor: Color.blue)
+            InputTextView()
                 .tabItem {
-                    Image(systemName: "airplane")
-                    Text("아이템 3")
+                    Image(systemName: "pencil")
+                    Text("텍스트 입력")
                 }
         }
     }
