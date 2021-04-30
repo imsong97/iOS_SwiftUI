@@ -11,7 +11,6 @@
 <br>
 <p>참고: https://www.youtube.com/c/HohyeonMoon/videos</p>
 <hr>
-<br>
 <h3>2. #1 ~ #7</h3>
 <li>#1 : @State, @Binding, Navigation, Animation</li>
 <li>#2 : WebView</li>
@@ -20,3 +19,4 @@
 <li>#5 : Geometry</li>
 <li>#6 : TabView, TextField</li>
 <li>#7 : Picker</li>
+<li>#8 : DarkMode, ViewModifier</li>
