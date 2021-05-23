@@ -8,7 +8,8 @@
 import Foundation
 
 struct RandomUser: Codable, Identifiable {
-    var id = UUID()
+    // Identifiable -> 식별이 가능하게 하는 프로토콜, 고유값이 있으므로 생략이 가능하게 한다
+    var id = UUID() // UUID()로 고유값 할당
     var name: Name
     var photo: Photo
     
@@ -20,7 +21,7 @@ struct RandomUser: Codable, Identifiable {
     // Dummy 데이터
     static func getDummy() -> Self {
         print("getDummy")
-        return RandomUser(name: Name.getDummy(), photo: Photo.getDummy())
+        return RandomUser(name: Name.getDummy(), photo: Photo.getDummy()) // Identifiable -> 고유값이 있으므로 id값 생략이 가능하게 한다
     }
     
     var url: URL {
@@ -30,7 +31,7 @@ struct RandomUser: Codable, Identifiable {
     }
 }
 
-struct Name: Codable {
+struct Name: Codable, CustomStringConvertible {
     var title: String
     var first: String
     var last: String
@@ -62,7 +63,7 @@ struct Photo: Codable {
 
 struct Info: Codable {
     var seed: String
-    var resultCount: String
+    var resultCount: Int
     var page: Int
     var version: String
     
@@ -76,6 +77,7 @@ struct Info: Codable {
 
 struct ResponseData: Codable, CustomStringConvertible {
     // Codable: 프로토콜, 자신이나 외부 데이터를 변환할 수 있는 타입 (Decodable + Encodable)
+    // CustomStringConvertible: 텍스트적인 표현을 커스터마이즈하는 타입 -> description
     var results: [RandomUser]
     var info: Info
     
